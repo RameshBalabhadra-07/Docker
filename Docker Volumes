@@ -1,0 +1,7 @@
+#Docker Volumes
+---
+Containers are ephemeral, meaning they are short-lived. If a container is deleted or crashes, any data stored inside its internal file system 
+is lost forever.
+
+Example: Imagine an Nginx container that stores user access logs. If that container goes down and is replaced by a new one, all the 
+previous logs are gone. For an organization, this is a major issue for security auditing and user tracking.
